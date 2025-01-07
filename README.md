@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native applications involving asynchronous data fetching and updates within a FlatList component. The bug arises from the race condition between data fetching and component lifecycle events. The solution showcases how to mitigate this issue using techniques like cancellation tokens and checking the component's mounted status.
